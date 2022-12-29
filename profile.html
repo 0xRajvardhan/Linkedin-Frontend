@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+
+            <div class="search-box">
+                <img src="img/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+
+        </div>
+
+
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="img/home.png"> <span>Home</span></a></li>
+                <li><a href="#"><img src="img/network.png"> <span>My Network</span></a></li>
+                <li><a href="#"><img src="img/jobs.png"> <span>Jobs</span></a></li>
+                <li><a href="#"><img src="img/message.png"> <span>Messaging</span></a></li>
+                <li><a href="#"><img src="img/notification.png"> <span>Notifications</span></a></li>
+            </ul>
+        </div>
+
+
+        <div class="navbar-right">
+            <div class="online">
+                <img src="img/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+        <!----------------------- Profile DropDown Menu --------------------------->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="img/user-1.png">
+                    <div>
+                        <h3>Rayan Walton</h3>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="img/setting.png">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="img/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a><a href="#" class="profile-menu-link">
+                    <img src="img/display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a><a href="#" class="profile-menu-link">
+                    <img src="img/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+
+    </nav>
+    <!------------------------ navbar close ----------------------->
+
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="img/cover-pic.png" width="100%">
+                <div class="profile-container-inner">
+                    <img src="img/user-1.png" class="profile-pic">
+                    <h1>Rayan Walton</h1>
+                    <b>Web Developer at Microsoft | Former developer at Uber and ex-Inter at Google</b>
+                    <p>San Francisco, United States &middot; <a href="#">Contact info</a></p>
+                    <div class="mutual-connection">
+                        <img src="img/user-2.png">
+                        <span>1 mutual connection: Orlando Giggs</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="img/connect.png">Connect</a>
+                        <a href="#"><img src="img/chat.png">Message</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------------------- profile sidebar ---------------------- -->
+        <div class="profile-sidebar"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
