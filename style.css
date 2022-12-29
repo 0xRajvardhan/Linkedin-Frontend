@@ -763,3 +763,12 @@ a {
     font-size: 12px;
     font-weight: 500;
 }
+
+.language-btn {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 6px 18px;
+    background: #e4e6eb;
+    font-size: 12px;
+    font-weight: 500;
+}
